@@ -1,0 +1,162 @@
+body{
+    text-align: center;
+    font-family: serif;
+    color: #40514E;
+}
+
+.topcont{
+    background-color: #f0f8ff;
+   /* height: 200px;
+    width: 200px;*/
+   /* border: solid 10px;*/
+    padding: 10px;
+    position: relative;
+    
+}
+h1{
+    font-size: 5.1625rem;
+    font-family: cursive;
+    margin-bottom: 0;
+    line-height: 1;
+}
+h3{
+    font-size: 2.5rem;
+}
+h2{
+    padding-bottom: 10px;
+}
+/*h1{
+    width:10%;
+    margin: 0 auto;  
+}*/
+/*
+.midcont{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+
+}
+.bottomcont{
+    background-color:yellow;
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    
+}
+*/
+.bottom-cloud{
+    position:absolute;
+    left:200px;
+    
+}
+.top-cloud{
+    position:absolute;
+    top:30px;
+    right:300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+.sing{
+float: left;
+margin-right: 20px;
+}
+.cric{
+    float: right;
+    margin-left: 20px;
+}
+/*
+To clear left and right margins of the para, we have used clear left and clear right
+.singp{
+    clear: left;
+}
+.cricp{
+    clear: right;
+}
+*/
+hr{
+    border: dotted grey 6px;
+    border-bottom: none;
+    width:5%;
+    margin: 100px auto;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 10px;
+    padding:50px 0 30px;
+}
+.middle-container{
+margin:100px 0;
+}
+.introp{
+    width: 30%;
+    margin:auto;
+}
+p{
+    line-height: 2;
+}
+.contp{
+    width: 30%;
+    margin:auto;
+    margin-bottom: 30px; 
+}
+.BUTTON_SVE {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ a{
+     color: #11999E;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin:10px 20px;
+     text-decoration: none;
+ }
+ a:hover{
+     color:#EAF6F6
+ }
+ 
+ .BUTTON_SVE:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ .copyright{
+     color: #EAF6F6;
+     font-size: small;
+     padding: 20px 0;
+ }
